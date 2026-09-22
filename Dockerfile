@@ -167,6 +167,7 @@ RUN ln -s /home/src/tasks/managed/cleanup_workspace/cleanup_workspace.py /home/s
     ln -s /home/src/tasks/managed/base64_encode_checksum/base64_encode_checksum.py /home/scripts/python/tasks/managed/base64_encode_checksum.py && \
     ln -s /home/src/tasks/managed/check_data_keys/check_data_keys.py /home/scripts/python/tasks/managed/check_data_keys.py && \
     ln -s /home/src/tasks/managed/check_labels/check_labels.py /home/scripts/python/tasks/managed/check_labels.py && \
+    ln -s /home/src/tasks/managed/check_maintainer_ldap_group/check_maintainer_ldap_group.py /home/scripts/python/tasks/managed/check_maintainer_ldap_group.py && \
     ln -s /home/src/tasks/managed/cleanup_internal_requests/cleanup_internal_requests.py /home/scripts/python/tasks/managed/cleanup_internal_requests.py && \
     ln -s /home/src/tasks/managed/close_advisory_issues/close_advisory_issues.py /home/scripts/python/tasks/managed/close_advisory_issues.py && \
     ln -s /home/src/tasks/managed/collect_charon_params/collect_charon_params.py /home/scripts/python/tasks/managed/collect_charon_params.py && \
